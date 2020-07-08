@@ -7,16 +7,24 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app"
   },
-  "dependenices": {
+  "dependencies": {
     "express": "*",
     "mongoose": "*",
-    "bcrypt.js": "*",
+    "bcryptjs": "*",
     "cors": "*",
     "jsonwebtoken": "*",
     "body-parser": "*",
     "passport": "*",
     "passport-jwt": "*"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pradeepraja-l/MEAN.git"
+  },
   "author": "Prady",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pradeepraja-l/MEAN/issues"
+  },
+  "homepage": "https://github.com/pradeepraja-l/MEAN#readme"
 }
